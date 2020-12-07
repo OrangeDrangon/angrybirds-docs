@@ -86,6 +86,8 @@ $(document).ready(function(){initNavTree('class_game.html',''); initResizable();
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_game-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Game Class Reference</div>  </div>
@@ -105,11 +107,104 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6d54497ce3a66f6dd45eacfdccc8d0bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#a6d54497ce3a66f6dd45eacfdccc8d0bd">draw</a> ()</td></tr>
 <tr class="memdesc:a6d54497ce3a66f6dd45eacfdccc8d0bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the game.  <a href="class_game.html#a6d54497ce3a66f6dd45eacfdccc8d0bd">More...</a><br /></td></tr>
 <tr class="separator:a6d54497ce3a66f6dd45eacfdccc8d0bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a2d1fa973aad9723cc6ecc0b3ed31734d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_bird.html">Bird</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#a2d1fa973aad9723cc6ecc0b3ed31734d">create_bird</a> ()</td></tr>
+<tr class="memdesc:a2d1fa973aad9723cc6ecc0b3ed31734d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a bird object used interally.  <a href="class_game.html#a2d1fa973aad9723cc6ecc0b3ed31734d">More...</a><br /></td></tr>
+<tr class="separator:a2d1fa973aad9723cc6ecc0b3ed31734d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ff3c2079ab89e4d62dd0aefd7d75c06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#a1ff3c2079ab89e4d62dd0aefd7d75c06">draw_slingshot</a> ()</td></tr>
+<tr class="memdesc:a1ff3c2079ab89e4d62dd0aefd7d75c06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the slingshot.  <a href="class_game.html#a1ff3c2079ab89e4d62dd0aefd7d75c06">More...</a><br /></td></tr>
+<tr class="separator:a1ff3c2079ab89e4d62dd0aefd7d75c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28b19c0c2b7808c0c27276e338a6730e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#a28b19c0c2b7808c0c27276e338a6730e">launch_bird</a> (<a class="el" href="class_vector.html">Vector</a> touch)</td></tr>
+<tr class="memdesc:a28b19c0c2b7808c0c27276e338a6730e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the launch velocity vector of the bird and assigns it.  <a href="class_game.html#a28b19c0c2b7808c0c27276e338a6730e">More...</a><br /></td></tr>
+<tr class="separator:a28b19c0c2b7808c0c27276e338a6730e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adde3cb7ee2f7c4492100138abceacdd7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#adde3cb7ee2f7c4492100138abceacdd7">detectCollisions</a> ()</td></tr>
+<tr class="memdesc:adde3cb7ee2f7c4492100138abceacdd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detects collisions between the targets and the bird.  <a href="class_game.html#adde3cb7ee2f7c4492100138abceacdd7">More...</a><br /></td></tr>
+<tr class="separator:adde3cb7ee2f7c4492100138abceacdd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:afaf9404196df9968103d5b0d0ad08139"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#afaf9404196df9968103d5b0d0ad08139">score</a> = 0</td></tr>
+<tr class="memdesc:afaf9404196df9968103d5b0d0ad08139"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current game score.  <a href="class_game.html#afaf9404196df9968103d5b0d0ad08139">More...</a><br /></td></tr>
+<tr class="separator:afaf9404196df9968103d5b0d0ad08139"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae72c9cacebf656e20bc3473ff8216e8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vector.html">Vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#ae72c9cacebf656e20bc3473ff8216e8c">slingshot_loc</a> {44, <a class="el" href="constants_8h.html#aaa6470fcf8c6e09ccdc11a27309dfddf">height</a> - 25}</td></tr>
+<tr class="memdesc:ae72c9cacebf656e20bc3473ff8216e8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant for location of the slingshot.  <a href="class_game.html#ae72c9cacebf656e20bc3473ff8216e8c">More...</a><br /></td></tr>
+<tr class="separator:ae72c9cacebf656e20bc3473ff8216e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f9f562ddbba16f367de1a401f8dd672"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_bird.html">Bird</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#a2f9f562ddbba16f367de1a401f8dd672">bird</a> = <a class="el" href="class_game.html#a2d1fa973aad9723cc6ecc0b3ed31734d">create_bird</a>()</td></tr>
+<tr class="memdesc:a2f9f562ddbba16f367de1a401f8dd672"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_bird.html" title="The bird class which is the main player class.">Bird</a> that belongs to the game state.  <a href="class_game.html#a2f9f562ddbba16f367de1a401f8dd672">More...</a><br /></td></tr>
+<tr class="separator:a2f9f562ddbba16f367de1a401f8dd672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09a6468fd89adbe91adfe46bcd3b3c61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_target.html">Target</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#a09a6468fd89adbe91adfe46bcd3b3c61">target</a> {{200, 60}, 20}</td></tr>
+<tr class="separator:a09a6468fd89adbe91adfe46bcd3b3c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8204ab8c72b2c5608838a6471fd573b2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_object.html">Object</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#a8204ab8c72b2c5608838a6471fd573b2">objects</a> {&amp;<a class="el" href="class_game.html#a2f9f562ddbba16f367de1a401f8dd672">bird</a>, &amp;<a class="el" href="class_game.html#a09a6468fd89adbe91adfe46bcd3b3c61">target</a>}</td></tr>
+<tr class="memdesc:a8204ab8c72b2c5608838a6471fd573b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of objects for drawing and moving.  <a href="class_game.html#a8204ab8c72b2c5608838a6471fd573b2">More...</a><br /></td></tr>
+<tr class="separator:a8204ab8c72b2c5608838a6471fd573b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa76c003bbad35b334830ccf88c2431de"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_target.html">Target</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#aa76c003bbad35b334830ccf88c2431de">targets</a> {&amp;<a class="el" href="class_game.html#a09a6468fd89adbe91adfe46bcd3b3c61">target</a>}</td></tr>
+<tr class="separator:aa76c003bbad35b334830ccf88c2431de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class responible for managing the game. </p>
 <dl class="section author"><dt>Author</dt><dd>Kyle </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2d1fa973aad9723cc6ecc0b3ed31734d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d1fa973aad9723cc6ecc0b3ed31734d">&#9670;&nbsp;</a></span>create_bird()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_bird.html">Bird</a> Game::create_bird </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a bird object used interally. </p>
+<dl class="section author"><dt>Author</dt><dd>Kyle</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_bird.html" title="The bird class which is the main player class.">Bird</a> </dd></dl>
+
+</div>
+</div>
+<a id="adde3cb7ee2f7c4492100138abceacdd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adde3cb7ee2f7c4492100138abceacdd7">&#9670;&nbsp;</a></span>detectCollisions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Game::detectCollisions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Detects collisions between the targets and the bird. </p>
+<dl class="section author"><dt>Author</dt><dd>Rand</dd></dl>
+<p><a href="https://gamedevelopment.tutsplus.com/tutorials/when-worlds-collide-simulating-circle-circle-collisions--gamedev-769">Citation</a></p>
+<dl class="section return"><dt>Returns</dt><dd>int </dd></dl>
+
+</div>
+</div>
 <a id="a6d54497ce3a66f6dd45eacfdccc8d0bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6d54497ce3a66f6dd45eacfdccc8d0bd">&#9670;&nbsp;</a></span>draw()</h2>
 
@@ -135,6 +230,69 @@ Public Member Functions</h2></td></tr>
 
 <p>Draws the game. </p>
 <dl class="section author"><dt>Author</dt><dd>Kyle </dd></dl>
+
+</div>
+</div>
+<a id="a1ff3c2079ab89e4d62dd0aefd7d75c06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ff3c2079ab89e4d62dd0aefd7d75c06">&#9670;&nbsp;</a></span>draw_slingshot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::draw_slingshot </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draws the slingshot. </p>
+<dl class="section author"><dt>Author</dt><dd>Kevin </dd></dl>
+
+</div>
+</div>
+<a id="a28b19c0c2b7808c0c27276e338a6730e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28b19c0c2b7808c0c27276e338a6730e">&#9670;&nbsp;</a></span>launch_bird()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::launch_bird </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_vector.html">Vector</a>&#160;</td>
+          <td class="paramname"><em>touch</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculates the launch velocity vector of the bird and assigns it. </p>
+<dl class="section author"><dt>Author</dt><dd>Rand</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">touch</td><td>location of touch on the screen </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -170,6 +328,147 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a2f9f562ddbba16f367de1a401f8dd672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f9f562ddbba16f367de1a401f8dd672">&#9670;&nbsp;</a></span>bird</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_bird.html">Bird</a> Game::bird = <a class="el" href="class_game.html#a2d1fa973aad9723cc6ecc0b3ed31734d">create_bird</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_bird.html" title="The bird class which is the main player class.">Bird</a> that belongs to the game state. </p>
+
+</div>
+</div>
+<a id="a8204ab8c72b2c5608838a6471fd573b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8204ab8c72b2c5608838a6471fd573b2">&#9670;&nbsp;</a></span>objects</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="class_object.html">Object</a> *&gt; Game::objects {&amp;<a class="el" href="class_game.html#a2f9f562ddbba16f367de1a401f8dd672">bird</a>, &amp;<a class="el" href="class_game.html#a09a6468fd89adbe91adfe46bcd3b3c61">target</a>}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>List of objects for drawing and moving. </p>
+
+</div>
+</div>
+<a id="afaf9404196df9968103d5b0d0ad08139"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afaf9404196df9968103d5b0d0ad08139">&#9670;&nbsp;</a></span>score</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Game::score = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Current game score. </p>
+
+</div>
+</div>
+<a id="ae72c9cacebf656e20bc3473ff8216e8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae72c9cacebf656e20bc3473ff8216e8c">&#9670;&nbsp;</a></span>slingshot_loc</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vector.html">Vector</a> Game::slingshot_loc {44, <a class="el" href="constants_8h.html#aaa6470fcf8c6e09ccdc11a27309dfddf">height</a> - 25}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constant for location of the slingshot. </p>
+
+</div>
+</div>
+<a id="a09a6468fd89adbe91adfe46bcd3b3c61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09a6468fd89adbe91adfe46bcd3b3c61">&#9670;&nbsp;</a></span>target</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_target.html">Target</a> Game::target {{200, 60}, 20}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa76c003bbad35b334830ccf88c2431de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa76c003bbad35b334830ccf88c2431de">&#9670;&nbsp;</a></span>targets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="class_target.html">Target</a> *&gt; Game::targets {&amp;<a class="el" href="class_game.html#a09a6468fd89adbe91adfe46bcd3b3c61">target</a>}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

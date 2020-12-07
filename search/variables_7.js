@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['radius_143',['radius',['../class_bird.html#a8dde95b1f4326a91e2717cf451a9fa55',1,'Bird::radius()'],['../class_target.html#ac5ae3810700c6f96884f02db6d24fa0e',1,'Target::radius()']]]
+  ['position_155',['position',['../class_object.html#a05285cf01931977c9949d392569c5ec6',1,'Object']]],
+  ['previous_5fposition_156',['previous_position',['../class_bird.html#ac572adbf9dbfe8dfc4c02df32192ffd5',1,'Bird']]]
 ];
